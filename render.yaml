@@ -3,9 +3,5 @@ services:
     name: scanspectrum
     env: python
     plan: free
-    branch: main
-    root: ""
-    buildCommand: ""
     startCommand: "gunicorn backend.app:app"
     autoDeploy: true
-    healthCheckPath: "/api/health"
