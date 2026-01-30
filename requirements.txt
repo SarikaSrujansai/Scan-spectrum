@@ -1,7 +1,7 @@
   Flask==2.3.3
 Flask-CORS==4.0.0
 numpy==1.26.4
-Pillow==10.2.0
+Pillow
 opencv-python-headless==4.10.0.84
 Werkzeug==2.3.7
 gunicorn==23.0.0
